@@ -83,4 +83,8 @@ This manuscript relies on established tools and lexicons. Representative referen
 Acknowledgments
 The author thanks collaborators and the open-source community for the libraries used in this work.
 
+How to cite
 
+If you use this work in academic research, please cite it as follows:
+
+Saleem, A. (2025). Psycholinguistic and Emotion-Centric Analysis of Mental Health Text: An Exploratory Study of Discriminative Linguistic Markers. Dataset and code available at: [DATASET LINK HERE].
