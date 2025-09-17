@@ -71,16 +71,18 @@ The NRC Emotion Lexicon (via NRCLex) was applied to generate emotion frequency s
 - Sentiment polarity: On average, classes associated with clinical conditions show lower compound sentiment scores than the Normal class. Some classes (for example, Bipolar or Personality disorder) exhibit higher variance in sentiment.
 - Psycholinguistic profiles: Empath categories and NRC emotion scores show meaningful differences across classes. Categories associated with negative affect and health concerns are relatively elevated in clinical classes.
 
-## 10. Limitations
+## 9. Limitations
 - The dataset origin and annotation process impose unknown biases that may affect generalizability.
 - The analysis uses a sampled subset of the data for computational tractability; results could shift with different sampling strategies or the full dataset.
 - Lexicon-based methods have limitations: they may not capture sarcasm, context-dependent meanings, or complex discourse-level features.
 - Ethical considerations: automated detection of mental health states raises privacy and misuse concerns and requires careful governance.
 
-## 11. Conclusion
+## 10. Conclusion
 This exploratory study outlines an interpretable workflow for examining psycholinguistic and emotional markers in mental health-related social-media text. The combined use of discriminative keyword analysis, sentiment scoring, and psycholinguistic profiling reveals class-specific language signals that are useful for both research and interpretable modeling.
 
-## 15. How to cite
+--- 
+
+#### How to cite
 
 If you use this work in academic research, please cite it as follows:
 
