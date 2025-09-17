@@ -11,10 +11,7 @@ This study investigates whether mental health status can be inferred from lingui
 Understanding how language reflects mental health states is important for early detection, research, and potential clinical applications. Prior work focused primarily on predictive performance. This study prioritizes interpretability and exploratory analysis to surface language features that are both statistically discriminative and clinically meaningful. The main contributions are: (1) a reproducible exploratory pipeline for cleaning and sampling social-media text; (2) an interpretable discriminative keyword analysis using log-odds with an informative prior; (3) combined sentiment and psycholinguistic profiling across mental health classes.
 
 ## 2. Data
-The analysis uses a dataset of social-media posts labeled by mental health status. The original dataset contains approximately 47,647 posts. To ensure computational tractability for exploratory analysis, the workflow subsets posts by statement length and samples up to 2,000 posts per class. The dataset is publically available on [Kaggle](https://www.kaggle.com/datasets/suchintikasarkar/sentiment-analysis-for-mental-health). 
-
-### 2.1 Data availability and ethical considerations
-The dataset contains user-generated text and should be handled according to relevant privacy and ethical guidelines. Any public release requires appropriate de-identification and ethical review. Users should avoid disclosing personally identifiable information in any published artifacts derived from the dataset.
+The analysis uses a dataset of social-media posts labeled by mental health status. The original dataset contains approximately 47,647 posts. The dataset is publically available on [Kaggle](https://www.kaggle.com/datasets/suchintikasarkar/sentiment-analysis-for-mental-health). 
 
 ## 3. Preprocessing
 Text preprocessing was performed to improve signal quality and interpretability. Steps included:
@@ -74,9 +71,6 @@ The NRC Emotion Lexicon (via NRCLex) was applied to generate emotion frequency s
 - Sentiment polarity: On average, classes associated with clinical conditions show lower compound sentiment scores than the Normal class. Some classes (for example, Bipolar or Personality disorder) exhibit higher variance in sentiment.
 - Psycholinguistic profiles: Empath categories and NRC emotion scores show meaningful differences across classes. Categories associated with negative affect and health concerns are relatively elevated in clinical classes.
 
-## 9. Discussion
-The combined analysis demonstrates that interpretable lexical and emotional signals differentiate mental health classes in social-media text. The log-odds discriminative tokens serve as candidate features for interpretable classifiers. Sentiment and psycholinguistic profiles augment keyword findings and provide a multi-faceted view of emotional tone and semantic focus across conditions. Findings should be interpreted cautiously because social-media language is noisy and context-dependent.
-
 ## 10. Limitations
 - The dataset origin and annotation process impose unknown biases that may affect generalizability.
 - The analysis uses a sampled subset of the data for computational tractability; results could shift with different sampling strategies or the full dataset.
@@ -85,13 +79,6 @@ The combined analysis demonstrates that interpretable lexical and emotional sign
 
 ## 11. Conclusion
 This exploratory study outlines an interpretable workflow for examining psycholinguistic and emotional markers in mental health-related social-media text. The combined use of discriminative keyword analysis, sentiment scoring, and psycholinguistic profiling reveals class-specific language signals that are useful for both research and interpretable modeling.
-
-## 13. References
-This work relies on established tools and lexicons. Representative references include:
-- Hutto, C.J., Gilbert, E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text.
-- Fast, E., Chen, B., and Bernstein, M. (2016). Empath: Understanding Topic Signals in Large-Scale Text.
-- Mohammad, S.M., Turney, P. (2013). NRC Emotion Lexicon.
-
 
 ## 15. How to cite
 
