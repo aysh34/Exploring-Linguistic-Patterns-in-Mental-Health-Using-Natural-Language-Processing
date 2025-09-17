@@ -60,7 +60,7 @@ Psycholinguistic categories by status:
 
 [Figure: Radarchart of Psycholinguistic Profiles]
 
-![Radarchart of Psycholinguistic Profiles](assets/radarchart-psycholinguistic-profiles.png)
+![Radarchart of Psycholinguistic Profiles](assets/radarchart-psycholinguistic-profiles.png) 
 
 ### 7.2 NRC emotion lexicon
 The NRC Emotion Lexicon (via NRCLex) was applied to generate emotion frequency scores (for example, sadness, joy, anger, fear) per statement. Class-level mean emotion scores were visualized with heatmaps and radar charts to show distinctive emotion profiles.
