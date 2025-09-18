@@ -1,19 +1,15 @@
 ## Ayesha Saleem
 ayeshasaleem853@gmail.com
 
-
 ## Title: Psycholinguistic and Emotion-Centric Analysis of Mental Health Text: An Exploratory Study of Discriminative Linguistic Markers
 
-## Abstract
-This study investigates whether mental health status can be inferred from linguistic patterns in social media text. Emphasis is placed on interpretability: identifying discriminative words, sentiment polarity, and psycholinguistic categories that differentiate mental health conditions. Using a curated dataset of social-media posts, we apply text cleaning, sampling, lexical and distributional analyses, log-odds ratio for discriminative keyword detection, sentiment scoring with VADER, and psycholinguistic profiling using Empath and the NRC emotion lexicon. Results highlight distinct lexical and emotional signatures across conditions and suggest avenues for interpretable classification and clinical insight. 
-
 ## 1. Introduction
-Understanding how language reflects mental health states is important for early detection, research, and potential clinical applications. Prior work focused primarily on predictive performance. This study prioritizes interpretability and exploratory analysis to surface language features that are both statistically discriminative and clinically meaningful. The main contributions are: (1) a reproducible exploratory pipeline for cleaning and sampling social-media text; (2) an interpretable discriminative keyword analysis using log-odds with an informative prior; (3) combined sentiment and psycholinguistic profiling across mental health classes.
+This project investigates how linguistic patterns in social media text can reveal indicators of mental health conditions. The focus is not just on prediction, but on interpretability understanding why certain words, emotions, and psycholinguistic categories differentiate one condition from another. To achieve this, we developed a reproducible pipeline that includes data cleaning, sampling, keyword analysis using log-odds ratios, sentiment scoring with VADER, and psycholinguistic profiling with Empath and the NRC emotion lexicon. The findings highlight distinct lexical and emotional signatures across mental health states, demonstrating how language can provide both analytical insights and potential support for early detection and clinical research.
 
 ## 2. Data
 The analysis uses a dataset of social-media posts labeled by mental health status. The dataset is publically available on [Kaggle](https://www.kaggle.com/datasets/suchintikasarkar/sentiment-analysis-for-mental-health). 
 
-## 3. Preprocessing
+## 3. Data Preprocessing
 Text preprocessing was performed to improve signal quality and interpretability. Steps included:
 - Expand contractions.
 - Normalize to lowercase and retain only alphabetic characters and spaces.
@@ -86,4 +82,6 @@ This exploratory study outlines an interpretable workflow for examining psycholi
 
 If you use this work in academic research, please cite it as follows:
 
-Saleem, A. (2025). Psycholinguistic and Emotion-Centric Analysis of Mental Health Text: An Exploratory Study of Discriminative Linguistic Markers. Code available at: https://github.com/aysh34/Psycholinguistic-Patterns-and-Emotional-Markers-in-Mental-Health
+Saleem, A. (2025). Psycholinguistic and emotion-centric analysis of mental health text: 
+An exploratory study of discriminative linguistic markers. 
+Retrieved from https://github.com/aysh34/Psycholinguistic-Patterns-and-Emotional-Markers-in-Mental-Health
