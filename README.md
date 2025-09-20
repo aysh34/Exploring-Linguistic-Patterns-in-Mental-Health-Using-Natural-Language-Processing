@@ -8,6 +8,7 @@ This project investigates how linguistic patterns in social media text can revea
 
 ## 2. Data
 The analysis uses a dataset of social-media posts labeled by mental health status. The dataset is publically available on [Kaggle](https://www.kaggle.com/datasets/suchintikasarkar/sentiment-analysis-for-mental-health). 
+- [Kaggle Notebook](https://www.kaggle.com/code/ayeshasal89/psycholinguistic-patterns-in-mental-health)
 
 ## 3. Data Preprocessing
 Text preprocessing was performed to improve signal quality and interpretability. Steps included:
